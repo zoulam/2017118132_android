@@ -1,7 +1,8 @@
 # 2017118132_android
 2019年android课程学习内容
 ## 作业一：[HelloWolrd](https://github.com/zoulam/2017118132_android/tree/master/HelloWolrd) 第一个安卓程序输出helloworld
-###在作业一中：项目中出现Invalid escape sequence at line 1 column 29 path $[0].name问题
+### 
+>在作业一中：项目中出现Invalid escape sequence at line 1 column 29 path $[0].name问题
 >解决方法
 >第一步：将project下的gradle.properties
 >把里面的org.gradle.jvmargs=-Xmx1536m改成org.gradle.jvmargs=-Dfile.encoding=UTF-8
